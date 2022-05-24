@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1 = [1,2,3,4,5,7,1,2,3]
+
+        let arr2 = [4,5,6,5,6]
+
+        //size 元素个数
+        // let result = new Set(arr1)
+        // console.log(result.size)  //6
+
+        //add 添加新元素
+        // let result = new Set(arr1)
+        // result.add('99')
+        // console.log(result)
+
+        //delete 删除元素
+        // let result = new Set(arr1)
+        // result.delete(1)
+        // console.log(result)
+
+        //has检测
+        // let result = new Set(arr1)
+        // console.log(result.has(2)) 
+        // console.log(result.has(88)) 
+
+        //clear清除
+        // let result = new Set(arr1)
+        // result.clear()
+
+
+
+        //去重
+        // let result = [...new Set(arr1)]
+        // console.log(result)
+
+        //交集
+        // let result =[...new Set(arr1)].filter(item =>{
+        //     let s2 = new Set(arr2)
+        //     if(s2.has(item)){
+        //         return true
+        //     }else{
+        //         return false
+        //     }
+        // })
+        // console.log(result)
+
+        // let result =[...new Set(arr1)].filter(item =>new Set(arr2).has(item))
+        // console.log(result)
+
+        //并集
+        // let result = [...new Set([...arr1,...arr2])]
+        // console.log(result)
+
+        //差集
+        // let result =[...new Set(arr1)].filter(item =>!(new Set(arr2).has(item)))
+        // console.log(result)
+
+    </script>
+</body>
+</html>
